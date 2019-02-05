@@ -1,6 +1,6 @@
-var topicArr = ["Golden State","Warriors","Steph Curry","Klay Thompson","Draymond Green","Kevin Durant","Demarcus Cousins","Steve Kerr","Andre Igoudala","Jonas Jerebko","Alfonzo McKinnie", "Damion Lee","Kevon Looney","Damian Jones","Shaun Livingston","Jordan Bell","Quinn Cook","Oracle Arena"];
+var topicArr = ["Golden State","Warriors","Steph Curry","Kevin Durant","Klay Thompson","Draymond Green","Demarcus Cousins","Steve Kerr","Andre Iguodala","Shaun Livingston","Jordan Bell","Quinn Cook","Kevon Looney","Jonas Jerebko","Alfonzo McKinnie", "Damion Lee","Damian Jones","Oracle Arena"];
 
-var num = 10;
+var num = Math.floor(Math.random() * Math.floor(15));
 
 var searchTopic;
 
@@ -25,7 +25,7 @@ $(document).on('click', '.styled',function(){
     $('.container').empty();
     $('#add').removeClass('hidden');
     searchTopic = $(this).text();
-    var qurl = "https://api.giphy.com/v1/gifs/search?q=" + searchTopic + "&api_key=mNqGPuEamE9CjwgQ9M7gLsPslGRBez79&limit=" + num;
+    var qurl = "https://api.giphy.com/v1/gifs/search?q=" + searchTopic + "&api_key=mNqGPuEamE9CjwgQ9M7gLsPslGRBez79&limit=10&offset=" + num;
     $.ajax({
         url: qurl,
         method: 'GET'
@@ -39,7 +39,7 @@ $(document).on('click', '.styled',function(){
 });
 
 $('#add').on('click', function(){
-    num = num + 10;
+    num = num + 7;
     var qurl = "https://api.giphy.com/v1/gifs/search?q=" + searchTopic + "&api_key=mNqGPuEamE9CjwgQ9M7gLsPslGRBez79&limit=10&offset=" + num;
     $.ajax({
         url: qurl,
