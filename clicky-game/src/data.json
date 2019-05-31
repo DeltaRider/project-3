@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/one.gif",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/two.gif",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/three.gif",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/four.gif",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/five.gif",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/six.gif",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/seven.gif",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/eight.gif",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/nine.gif",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/ten.gif",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "/assets/images/eleven.gif",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "/assets/images/twelve.gif",
+    "clicked": false
+  }
+]
